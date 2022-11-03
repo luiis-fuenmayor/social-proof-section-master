@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&family=League+Spartan:wght@400;500;700;800&display=swap');
 
 :root{
 
@@ -10,3 +10,135 @@
     --White: hsl(0, 0%, 100%);
 }
 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--White);
+    height: 100vh;
+    margin: auto;
+    width: 375px;
+    height: 1530px;
+    padding-top: 79px;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.container{
+    font-family: 'League Spartan', sans-serif;
+    height: 1360px;
+    width: 328px;
+    
+   
+}
+.container::before{
+    content: url(./images/bg-pattern-top-mobile.svg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container::after{
+    content: url(./images/bg-pattern-bottom-mobile.svg);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+h1{
+    color: var(--Very-Dark-Magenta);
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: .18em;
+    line-height: .85em;
+}
+.header p{
+
+    justify-content: center;
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-top: 1.3em;
+    width: 340px;
+    text-align: center;
+    margin-bottom: 2.2em;
+    margin-left: -.4em;
+}
+.stars{
+    position: relative;
+}
+.star-icon{
+    position: absolute;
+    left: 110px;
+    top: 20px;
+    
+}
+.star-icon1{
+    position: absolute;
+    left: 110px;
+    top: 7em;
+}
+.star-icon3{
+    position: absolute;
+    left: 110px;
+    top: 13em;
+}
+.stars p{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    background-color: var(--Light-Grayish-Magenta);
+    height: 77px;
+    border-radius: .4em;
+    margin-bottom: 1em;
+    padding-top: 3em;
+}
+#q{
+    margin-bottom: 50px;
+}
+.text-user{
+    background-color: var(--Very-Dark-Magenta);
+    margin-bottom: 17.5px;
+    border-radius: .4em;
+    height: 250px;
+    padding-top: 38px;
+    padding-left: 30px;
+    padding-right: 34px;
+    text-align: left;
+}
+.profile{
+    display: flex;
+    margin-bottom: 25px;
+}
+.profile img{
+    margin-right: 1.5em;
+    width: 43px;
+    border: 2px solid var(--Very-Dark-Magenta);
+    border-radius: 100%;
+}
+.profile-name{
+    line-height: 1.2em;
+    padding-top: .4em;
+}
+.profile-name b{
+    color: var(--White);
+}
+.profile-name p{
+    color: var(--Soft-Pink);
+    opacity: .8;
+}
+.text-info p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: var(--White);
+}
+.footer{
+    display: none;
+}
+
+@media(min-width: 1200px){
+    
+}
